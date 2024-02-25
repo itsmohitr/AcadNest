@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="frontend/resources/styles/style.css">
+        <title>AcadNest</title>
+        <link rel="icon" type="image/x-icon" href="frontend/resources/images/favicon.png">
+        <script src="https://kit.fontawesome.com/ff3917b298.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo"><B>ACADNEST</B></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                      
+                       
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-music nav__icon'></i>
+                                <span class="nav__name">Events</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="dashboard/login.html" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">Join Us</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <img src="frontend/resources/images/avatar.jpeg" alt="" class="nav__img">
+            </nav>
+        </header>
+
+        <main class="mainBody">
+            <section class="container section section__height" id="home">
+                <h1 class="section__title">Your Academic Oasis:</h1>
+                <p class="section__titleP">Everything You Need, Right at Your Fingertips! From Books to Exam Solutions, We've Got You Covered!</p>
+            </section>
+        </main>
+
+
+
+        <section id="feature">
+            <div class="title_text">
+                <!-- <h1>Headline</h1> -->
+            </div>
+            <div class="feature_box">
+                <div class="features">
+                    <h1>Notes</h1>
+                    <div class="features_desc">
+                        <div class="features_icon">
+                            <i class='bx bx-bug'></i>
+                        </div>
+                        <div class="feature_text">
+                            Our website aims to provide the best notes for various academic departments, catering to the diverse needs of students and learners across different subjects
+                        </div>
+                    </div>
+                    <!-- ==== EVENTS KA P SUDHAR LIJIYE ===-->
+                    <h1>Events</h1>
+                    <div class="features_desc">
+                        <div class="features_icon">
+                            <i class='bx bx-bug'></i>
+                        </div>
+                        <div class="feature_text">
+                            Our website aims to provide the best notes for various academic departments, catering to the diverse needs of students and learners across different subjects
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="features_image">
+                    <img src="frontend/resources/images/bannerCharacter2.png" id="imageToChange">
+                </div>
+            </div>
+        </section>
+
+        <!-- === FOOTER  === -->
+       <!--footer / contact-->
+       <center>
+        <footer class="py-6 bg-light" style="background-color: gainsboro; opacity: 0.9; padding-top: 25px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item" ><a href="#">Privacy</a></li>
+                            <li class="list-inline-item"><a href="#">Team</a></li>
+                            <li class="list-inline-item"><a href="#">Support</a></li>
+                                <li class="list-inline-item"><a href="#">Contact</a></li>
+                        </ul>
+                        <br>
+                    
+                        <p class="text-muted small text-uppercase mt-4" style="font-family: poppins;">
+                            Follow us on social media
+                        </p>
+                        <br>
+                        <ul class="list-inline social social-dark social-sm">
+                            <li class="list-inline-item">
+                                <a href=""><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href=""><i class="fa fa-google-plus" ></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href=""><i class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                    <p style="margin-bottom: 5px;"> Made with <i class='bx bx-heart'></i> in Bharat</p>
+                <div class="row mt-5">
+                    <div class="col-12 text-muted text-center small-xl">
+                        &copy; 2024 AcadNest - All Rights Reserved
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </center>
+        
+        <!-- === FOOTER  === -->
+
+<script>
+    function changeImage() {
+        var screenWidth = window.innerWidth;
+        var image = document.getElementById('imageToChange');
+      
+        if (screenWidth <= 770) {
+          image.src = 'frontend/resources/images/bannerCharacter3.png';
+        } else {
+          image.src = 'frontend/resources/images/bannerCharacter2.png';
+        }
+      }
+      
+      // Call changeImage function when the page loads and when the window size changes
+      window.onload = changeImage;
+      window.onresize = changeImage;
+</script>
+       
+    </body>
+</html>
