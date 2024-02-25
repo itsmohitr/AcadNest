@@ -63,7 +63,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 ## Contact
-For any inquiries or issues regarding AcadNest, feel free to contact us at mail to - mohitranjan2021@gmail.com.
+For any inquiries or issues regarding AcadNest, feel free to contact us at mail to - acadnest23@gmail.com.
 
 ---
 
